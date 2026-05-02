@@ -3,28 +3,8 @@ site_description: 银行卡知识库 — 外币卡、虚拟卡、国内卡
 site_url: https://1241262510.github.io/bank-wiki/
 
 theme:
-  name: material
-  language: zh
-  palette:
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: 切换亮色
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: 切换暗色
-  features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.expand
-    - navigation.indexes
-    - search.suggest
-    - search.highlight
+  name: readthedocs
+  locale: zh_CN
 
 nav:
   - 首页: index.md
