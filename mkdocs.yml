@@ -1,0 +1,50 @@
+site_name: Bank Wiki
+site_description: 银行卡知识库 — 外币卡、虚拟卡、国内卡
+site_url: https://1241262510.github.io/bank-wiki/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换亮色
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换暗色
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+
+nav:
+  - 首页: index.md
+  - 外币银行卡:
+    - foreign/entities/n26.md
+    - foreign/entities/ccb-asia.md
+    - foreign/concepts/overseas-subscription-payment.md
+    - foreign/concepts/eur-to-cny-transfer.md
+    - foreign/concepts/us-card-forwarding.md
+  - 虚拟银行卡:
+    - virtual/README.md
+  - 国内银行卡:
+    - domestic/README.md
+  - 原始文章:
+    - raw/articles/n26-austria-no-video-verification-2026.md
+    - raw/articles/n26-update-alipay-claude-2026.md
+    - raw/articles/ccb-asia-account-opening-2026.md
+    - raw/articles/us-card-forwarding-guide-2026.md
+  - Schema: SCHEMA.md
+  - 更新日志: log.md
+
+plugins:
+  - search
