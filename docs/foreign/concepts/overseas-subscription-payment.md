@@ -23,7 +23,7 @@ sources: [raw/articles/n26-update-alipay-claude-2026.md]
 
 | 项目 | 设置 |
 |------|------|
-| 卡 | [n26](foreign/entities/n26.md)（德国 Mastercard） |
+| 卡 | [n26](../entities/n26.md)（德国 Mastercard） |
 | 账单地址 | 填德国地址（Google 地图找一个真实民用住宅） |
 | 支付方式 | 网页端直接刷卡，无需 Apple Pay |
 | 通过率 | 接近 100% |

@@ -63,6 +63,6 @@ sources: [raw/articles/n26-update-alipay-claude-2026.md]
 
 ## 关联
 
-- [n26](foreign/entities/n26.md) — 支持直汇支付宝的外币卡
+- [n26](../entities/n26.md) — 支持直汇支付宝的外币卡
 - **wise** — 中转方案
-- [overseas-subscription-payment](foreign/concepts/overseas-subscription-payment.md) — 海外支付策略
+- [overseas-subscription-payment](overseas-subscription-payment.md) — 海外支付策略

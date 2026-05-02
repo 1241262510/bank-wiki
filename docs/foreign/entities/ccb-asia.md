@@ -124,7 +124,7 @@ sources: [raw/articles/ccb-asia-account-opening-2026.md]
 
 ## 关联
 
-- [n26](foreign/entities/n26.md) — 另一个远程开户选择（德国银行）
+- [n26](n26.md) — 另一个远程开户选择（德国银行）
 - **bochk** — 中银香港，港卡热门选择
 - **hsbc-hk** — 汇丰香港
 - **za-bank** — 香港众安银行（虚拟银行）
